@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin=
+      "anonymous"
+    />
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="container">
+          <div class="nav">
+            <div class="menu-pc">
+              <div class="logo">
+                <img src="images/logo.svg" alt="logo" />
+                <div>
+                  <a href="">Features</a>
+                  <a href="">Pricing</a>
+                  <a href="">Resources</a>
+                </div>
+              </div>
+              <div class="menu-pc-account">
+                <div>
+                  <a href="">Login</a>
+                  <button class="signup">Sign Up</button>
+                </div>
+              </div>
+            </div>
+            <div class="menu-mobile">
+              <div class="menu-btn" id="menu-btn"><i class="fas fa-bars"></i></div>
+              <div class="menu-items" id="menu-items">
+                <div>
+                  <a href="">Features</a>
+                  <a href="">Pricing</a>
+                  <a href="">Resources</a>
+                </div>
+                <div>
+                  <a href="">Login</a>
+                  <button class="signup">Sign Up</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-main">
+            <div class="header-img">
+              <img src="images/illustration-working.svg" alt="" />
+            </div>
+            <div class="header-text">
+              <div class="header-title">More than just shorter links</div>
+              <div class="header-description">
+                Build your brand’s recognition and get detailed insights on how your
+                links are performing.
+              </div>
+              <div class="header-btn"><button>Get Started</button></div>
+            </div>
+          </div>
+          <div class="shorten-box">
+            <div><input id="urllink" type="url" placeholder="Shorten a link here..." /></div>
+            <div class="message" id="message"></div>
+            <div><button id="shorten">Shorten It!</button></div>
+          </div>
+        </div>
+      </div>
+      <div class="shorten-history"></div>
+      <div class="helpful">
+        <div class="helpful-title">Advanced Statistics</div>
+        <div class="helpful-description">
+          Track how your links are performing across the web with our advanced
+          statistics dashboard.
+        </div>
+      </div>
+      <div class="container">
+        <div class="benefit">
+          <div class="benefit-box">
+            <div class="benefit-icon">
+              <img
+                src="images/icon-brand-recognition.svg"
+                alt="icon brand recognition"
+              />
+            </div>
+            <div class="benefit-title">Brand Recognition</div>
+            <div class="benefit-description">
+              Boost your brand recognition with each click. Generic links don’t mean
+              a thing. Branded links help instil confidence in your content.
+            </div>
+          </div>
+          <div class="benefit-box">
+            <div class="benefit-icon">
+              <img
+                src="images/icon-detailed-records.svg"
+                alt="icon detailed records"
+              />
+            </div>
+            <div class="benefit-title">Detailed Records</div>
+            <div class="benefit-description">
+              Gain insights into who is clicking your links. Knowing when and where
+              people engage with your content helps inform better decisions.
+            </div>
+          </div>
+          <div class="benefit-box connecting">
+            <div class="benefit-icon">
+              <img
+                src="images/icon-fully-customizable.svg"
+                alt="icon fully customizable"
+              />
+            </div>
+            <div class="benefit-title">Fully Customizable</div>
+            <div class="benefit-description">
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="callclick">
+        <div class="callclick-title">Boost your links today</div>
+        <div class="callclick-btn"><button>Get Started</button></div>
+      </div>
+      <div class="footer">
+        <div class="footer-name">Shortly</div>
+        <div class="footer-nav">
+          <div class="footer-title">Features</div>
+          <div class="footer-items">
+            <div>Link Shortening</div>
+            <div>Branded Links</div>
+            <div>Analytics</div>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <div class="footer-title">Resosources</div>
+          <div class="footer-items">
+            <div>Blog</div>
+            <div>Developers</div>
+            <div>Support</div>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <div class="footer-title">Company</div>
+          <div class="footer-items">
+            <div>About</div>
+            <div>Our Team</div>
+            <div>Careers</div>
+            <div>Contact</div>
+          </div>
+        </div>
+        <div class="footer-social">
+          <div><img src="images/icon-facebook.svg" alt="Facebook" /></div>
+          <div><img src="images/icon-twitter.svg" alt="Twitter" /></div>
+          <div><img src="images/icon-pinterest.svg" alt="Pinterest" /></div>
+          <div><img src="images/icon-instagram.svg" alt="Instagram" /></div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>

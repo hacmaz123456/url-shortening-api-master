@@ -1,0 +1,370 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsla(0, 0%, 75%, 0.219);
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header {
+    background-color: white;
+    position: relative;
+    padding-bottom: 50px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    position: relative;
+    padding: 20px 0;
+}
+.logo div, .menu-pc-account {
+    display: none;
+}
+.fa-bars {
+    color: rgba(0, 0, 0, 0.356);
+    border-radius: 50%;
+    padding: 5px;
+}
+.menu-mobile .menu-items {
+    display: none;
+    text-align: center;
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 10px;
+    position: absolute;
+    padding: 30px 0;
+    left: 0;
+    right: 0;
+    top: 80%;
+}
+.menu-items a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.menu-items div:first-child {
+    margin-bottom: 50px;
+}
+.signup {
+    border: 0;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    background-color: hsl(180, 66%, 49%);
+    padding: 10px 100px;
+    border-radius: 50px;
+}
+.header-text {
+    text-align: center;
+}
+.header-img img {
+    width: 100%;
+}
+.header-title {
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0 15px;
+}
+.header-description {
+    color: rgba(0, 0, 0, 0.397);
+    font-size: 18px;
+    margin: 0 15px;
+}
+.header-btn button, .callclick button {
+    border: 0;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    background-color: hsl(180, 66%, 49%);
+    padding: 10px 30px;
+    margin: 20px auto 50px auto;
+    border-radius: 50px;
+}
+.shorten-box {
+    text-align: center;
+    background-color: hsl(257, 27%, 26%);
+    margin: 0 15px;
+    padding: 15px 0;
+    border-radius: 10px;
+    background-image: url(images/bg-shorten-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -80px;
+}
+.shorten-box div {
+    margin: 0 15px;
+}
+.shorten-box input {
+    width: 75%;
+    margin: 0;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.shorten-box input::placeholder {
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.356);
+}
+.shorten-box button {
+    width: 75%;
+    box-sizing: content-box;
+    margin-top: 15px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    font-weight: bolder;
+}
+input:focus, button:focus {
+    outline: 0;
+}
+.helpful {
+    text-align: center;
+    margin: 120px 0;
+}
+.helpful-title {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.helpful-description {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.452);
+}
+.benefit {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.benefit-box {
+    position: relative;
+    background-color: white;
+    margin-top: 100px;
+    padding: 80px 25px 50px 25px;
+    text-align: center;
+}
+.benefit-box.connecting {
+    position: relative;
+}
+.benefit-box.connecting::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    z-index: -1;
+    height: 800px;
+    top: -700px;
+    background-color: rgb(0, 194, 194);
+}
+.benefit-box .benefit-icon {
+    position: absolute;
+    left: 0;
+    right: 0%;
+    top: -40px;
+}
+.benefit-box .benefit-icon img {
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 50%;
+    padding: 20px;
+}
+.benefit-title {
+    font-size: 22px;
+    font-weight: bolder;
+}
+.benefit-description {
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.425);
+}
+.callclick {
+    background-image: url(images/bg-boost-mobile.svg);
+    background-color: hsl(257, 27%, 26%);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 70px 0;
+    margin: auto;
+}
+.callclick-title {
+    color: white;
+    font-weight: bolder;
+    margin-top: 15px;
+    font-size: 23px;
+}
+.callclick-btn button {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.footer {
+    background-color: hsl(260, 8%, 14%);
+    text-align: center;
+    color: white;
+}
+.footer-nav {
+    margin: 20px 0 40px 0;
+}
+.footer-name {
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 50px 0;
+}
+.footer-title {
+    font-weight: bolder;
+}
+.footer-items {
+    color: rgba(255, 255, 255, 0.438);
+    margin-top: 20px;
+}
+.footer-items div {
+    margin-top: 10px;
+}
+.footer-social {
+    display: flex;
+    justify-content: center;
+}
+.footer-social div {
+    padding: 0 10px 15px 10px;
+}
+@media only screen and (min-width: 769px) {
+    .container {
+        padding: 0 150px;
+    }
+    .nav {
+        display: block;
+        padding-top: 50px;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .menu-pc {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-pc a {
+        text-decoration: none;
+        color: black;
+        color: rgba(0, 0, 0, 0.472);
+        font-size: 14px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .logo div {
+        margin-left: 25px;
+    }
+    .logo div, .menu-pc-account {
+        display: block;
+    }
+    .logo a {
+        margin-left: 15px;
+    }
+    .signup {
+        padding: 5px 30px;
+        margin-left: 25px;
+    }
+    .header-main {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .header-text {
+        text-align: left;
+    }
+    .header-title {
+        font-size: 70px;
+        margin: 0;
+    }
+    .header-description {
+        font-size: 18px;
+        margin: 0;
+    }
+    .shorten-box {
+        margin: 0 150px;
+        display: flex;
+        bottom: -60px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 0;
+        background-image: url(images/bg-shorten-desktop.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .shorten-box div:first-child {
+        width: 100%;
+        margin-left: 50px;
+    }
+    .shorten-box div {
+        margin-right: 50px;
+    }
+    .shorten-box input {
+        width: 99%;
+    }
+    .message {
+        display: none;
+    }
+    .shorten-box button {
+        margin: 0;
+        font-size: 15px;
+    }
+    .benefit {
+        display: flex;
+        margin-top: 0;
+        padding-bottom: 200px;
+        overflow: hidden;
+        justify-content: space-between;
+    }
+    .benefit-box {
+        max-width: 24%;
+        text-align: left;
+    }
+    .benefit-box:nth-of-type(2) {
+        top: 60px;
+    }
+    .benefit-box:nth-of-type(3) {
+        top: 120px;
+    }
+    .benefit-box.connecting::before {
+        transform: rotate(90deg);
+        top: -700px;
+        left: -400px;
+        height: 1500px;
+        z-index: -1;
+    }
+    .benefit-box .benefit-icon {
+        left: 20px;
+    }
+    .callclick-title {
+        font-size: 50px;
+        background-image: url(images/bg-boost-desktop.svg);
+    }
+    .callclick-btn button {
+        font-size: 25px;
+    }
+    .footer {
+        padding: 60px 150px;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .footer-name {
+        padding: 0;
+    }
+    .footer-nav {
+        margin: 0;
+    }
+}
